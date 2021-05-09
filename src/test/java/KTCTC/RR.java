@@ -12,6 +12,8 @@ public class RR {
 	public void sampleMethod2()
 	{
 		System.out.println("Hello ...");
+		System.out.println("Hi");
 		
 	}
+	
 }
