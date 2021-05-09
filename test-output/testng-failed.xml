@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="KTCTC.regression.WebTablesTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="verifyExistingUserCanBeDeletedOnWebTablePage"/>
+          <include name="verifyNewUserCanBeAddedOnWebTablePage"/>
+          <include name="verfiyNavigationToWebTablePageAndInitialiseData"/>
+          <include name="beforeSuite"/>
+          <include name="beforeClassOfA"/>
+          <include name="verifyAllDetailsOfAddedUser"/>
+          <include name="afterClass"/>
+          <include name="verifyAllDetailsOfEditedUser"/>
+          <include name="afterSuiteMethod"/>
+          <include name="beforeMethod"/>
+          <include name="verifyExistingUserDetailsCanBeEditedOnWebTablePage"/>
+        </methods>
+      </class> <!-- KTCTC.regression.WebTablesTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
