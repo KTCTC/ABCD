@@ -111,30 +111,7 @@ public class WaitHelper {
 		log.info("frame is available and switched");
 	}
 
-	/**
-	 * This method will give is fluentWait object
-	 * @param timeOutInSeconds
-	 * @param pollingEveryInMiliSec
-	 * @return
-	 */
-	private Wait<WebDriver> getfluentWait(int timeOutInSeconds, int pollingEveryInMiliSec) {
-		Wait<WebDriver> fWait = new FluentWait<WebDriver>(driver)
-				.withTimeout(Duration.ofSeconds(timeOutInSeconds))
-				.pollingEvery(Duration.ofMillis(pollingEveryInMiliSec)).ignoring(NoSuchElementException.class);
-		return fWait;
-	}
 	
-	/**
-	 * 
-	 * @param element
-	 * @param timeOutInSeconds
-	 * @param pollingEveryInMiliSec
-	 */
-	public WebElement waitForElement(WebElement element, int timeOutInSeconds, int pollingEveryInMiliSec){
-		Wait<WebDriver> fwait = getfluentWait(timeOutInSeconds, pollingEveryInMiliSec);
-		fwait.until(ExpectedConditions.visibilityOf(element));
-		return element;
-	}
 	
 	public void pageLoadTime(long timeout, TimeUnit unit){
 		log.info("waiting for page to load for : "+ unit+ " seconds");
