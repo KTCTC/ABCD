@@ -1003,3 +1003,393 @@
 2022-02-27 18:02:515 INFO  WebTablesPage:131 - given  records is not present
 2022-02-27 18:02:521 INFO  TestBase:72 - verifyExistingUserCanBeDeletedOnWebTablePage is pass
 2022-02-27 18:02:521 INFO  TestBase:81 - **************verifyExistingUserCanBeDeletedOnWebTablePageFinished***************
+2022-02-28 20:02:924 INFO  PropertyFileHelper:20 - Initializing mentioned property file
+2022-02-28 20:02:928 INFO  PropertyFileHelper:39 - Property file has been initialized
+2022-02-28 20:02:718 INFO  PropertyFileHelper:50 - Getting value of key from property file
+2022-02-28 20:02:728 INFO  PropertyFileHelper:52 - Value for provided key is  = https://demoqa.com/
+2022-02-28 20:02:879 INFO  TestBase:59 - **************verifyUserCanNavigateToWebTablePageStarted***************
+2022-02-28 20:02:259 INFO  CommonMethods:105 - Navigating to required page...= Element
+2022-02-28 20:02:278 INFO  JavaScriptHelper:20 - JavaScriptHelper has been initialised
+2022-02-28 20:02:634 INFO  CommonMethods:108 - Navigatition is sucessfull
+2022-02-28 20:02:676 INFO  WebTablesPage:36 - Navigating to Webtable page...
+2022-02-28 20:02:80 INFO  WebTablesPage:38 - Navigated to webtable page successfully
+2022-02-28 20:02:303 INFO  TestBase:72 - verifyUserCanNavigateToWebTablePage is pass
+2022-02-28 20:02:308 INFO  TestBase:81 - **************verifyUserCanNavigateToWebTablePageFinished***************
+2022-02-28 20:02:320 INFO  TestBase:59 - **************verifyNewUserCanBeAddedOnWebTablePageStarted***************
+2022-02-28 20:02:194 INFO  WebTablesPage:44 - Adding new User on webtable page...
+2022-02-28 20:02:987 INFO  WaitHelper:27 - WaitHelper object created..
+2022-02-28 20:02:850 INFO  WaitHelper:67 - waiting for :[[ChromeDriver: chrome on WINDOWS (5f8028c8bf64d923a4a13c384a93a0ad)] -> id: firstName] for :5 seconds
+2022-02-28 20:02:935 INFO  WaitHelper:70 - element is visible now
+2022-02-28 20:02:239 INFO  WebTablesPage:55 - New user added succsessfully
+2022-02-28 21:02:676 INFO  WebTablesPage:61 - Searching provided string in search box..
+2022-02-28 21:02:211 INFO  WebTablesPage:64 - Searched provided string in search box = GhKU@Fzpc.com
+2022-02-28 21:02:849 INFO  WebTablesPage:75 - Provided user is displayed on webtable page
+2022-02-28 21:02:636 INFO  TestBase:72 - verifyNewUserCanBeAddedOnWebTablePage is pass
+2022-02-28 21:02:641 INFO  TestBase:81 - **************verifyNewUserCanBeAddedOnWebTablePageFinished***************
+2022-02-28 21:02:646 INFO  TestBase:59 - **************verifyAllDetailsOfNewlyAddedUserStarted***************
+2022-02-28 21:02:878 INFO  WebTablesPage:87 - Getting all details of provided user...
+2022-02-28 21:02:412 INFO  WebTablesPage:61 - Searching provided string in search box..
+2022-02-28 21:02:259 INFO  WebTablesPage:64 - Searched provided string in search box = GhKU@Fzpc.com
+2022-02-28 21:02:197 INFO  WebTablesPage:96 - User details are provided succsessfully
+2022-02-28 21:02:299 INFO  TestBase:72 - verifyAllDetailsOfNewlyAddedUser is pass
+2022-02-28 21:02:302 INFO  TestBase:81 - **************verifyAllDetailsOfNewlyAddedUserFinished***************
+2022-02-28 21:02:312 INFO  TestBase:59 - **************verifyExistingUserCanBeEditedStarted***************
+2022-02-28 21:02:906 INFO  WebTablesPage:102 - Editing existring user with provided details...
+2022-02-28 21:02:406 INFO  WebTablesPage:61 - Searching provided string in search box..
+2022-02-28 21:02:122 INFO  WebTablesPage:64 - Searched provided string in search box = GhKU@Fzpc.com
+2022-02-28 21:02:484 INFO  WaitHelper:27 - WaitHelper object created..
+2022-02-28 21:02:681 INFO  WaitHelper:67 - waiting for :[[ChromeDriver: chrome on WINDOWS (5f8028c8bf64d923a4a13c384a93a0ad)] -> id: firstName] for :5 seconds
+2022-02-28 21:02:303 INFO  WaitHelper:70 - element is visible now
+2022-02-28 21:02:167 INFO  WebTablesPage:120 - User is edited successfully
+2022-02-28 21:02:708 INFO  WebTablesPage:61 - Searching provided string in search box..
+2022-02-28 21:02:292 INFO  WebTablesPage:64 - Searched provided string in search box = GDQv@KWoP.com
+2022-02-28 21:02:143 INFO  WebTablesPage:75 - Provided user is displayed on webtable page
+2022-02-28 21:02:893 INFO  TestBase:72 - verifyExistingUserCanBeEdited is pass
+2022-02-28 21:02:894 INFO  TestBase:81 - **************verifyExistingUserCanBeEditedFinished***************
+2022-02-28 21:02:904 INFO  TestBase:59 - **************verifyAllDetailsOfEditedUserStarted***************
+2022-02-28 21:02:908 INFO  WebTablesPage:87 - Getting all details of provided user...
+2022-02-28 21:02:306 INFO  WebTablesPage:61 - Searching provided string in search box..
+2022-02-28 21:02:410 INFO  WebTablesPage:64 - Searched provided string in search box = GDQv@KWoP.com
+2022-02-28 21:02:98 INFO  WebTablesPage:96 - User details are provided succsessfully
+2022-02-28 21:02:267 INFO  TestBase:72 - verifyAllDetailsOfEditedUser is pass
+2022-02-28 21:02:268 INFO  TestBase:81 - **************verifyAllDetailsOfEditedUserFinished***************
+2022-02-28 21:02:273 INFO  TestBase:59 - **************verifyExistringUserCanBeDeletedStarted***************
+2022-02-28 21:02:197 INFO  WebTablesPage:126 - Deleting user with provided details...
+2022-02-28 21:02:917 INFO  WebTablesPage:61 - Searching provided string in search box..
+2022-02-28 21:02:712 INFO  WebTablesPage:64 - Searched provided string in search box = GDQv@KWoP.com
+2022-02-28 21:02:882 INFO  WebTablesPage:129 - Existring user with provided details is deleted
+2022-02-28 21:02:717 INFO  WebTablesPage:61 - Searching provided string in search box..
+2022-02-28 21:02:907 INFO  WebTablesPage:64 - Searched provided string in search box = GDQv@KWoP.com
+2022-02-28 21:02:700 INFO  WebTablesPage:78 - Provided user is not displayed on webtable page
+2022-02-28 21:02:397 INFO  TestBase:72 - verifyExistringUserCanBeDeleted is pass
+2022-02-28 21:02:397 INFO  TestBase:81 - **************verifyExistringUserCanBeDeletedFinished***************
+2022-02-28 21:02:569 INFO  PropertyFileHelper:20 - Initializing mentioned property file
+2022-02-28 21:02:572 INFO  PropertyFileHelper:39 - Property file has been initialized
+2022-02-28 21:02:730 INFO  PropertyFileHelper:50 - Getting value of key from property file
+2022-02-28 21:02:730 INFO  PropertyFileHelper:52 - Value for provided key is  = https://demoqa.com/
+2022-02-28 21:02:742 INFO  TestBase:59 - **************verifyUserCanNavigateToWebTablePageStarted***************
+2022-02-28 21:02:749 INFO  CommonMethods:105 - Navigating to required page...= Element
+2022-02-28 21:02:751 INFO  JavaScriptHelper:20 - JavaScriptHelper has been initialised
+2022-02-28 21:02:885 INFO  CommonMethods:108 - Navigatition is sucessfull
+2022-02-28 21:02:886 INFO  WebTablesPage:36 - Navigating to Webtable page...
+2022-02-28 21:02:101 INFO  WebTablesPage:38 - Navigated to webtable page successfully
+2022-02-28 21:02:105 INFO  TestBase:72 - verifyUserCanNavigateToWebTablePage is pass
+2022-02-28 21:02:106 INFO  TestBase:81 - **************verifyUserCanNavigateToWebTablePageFinished***************
+2022-02-28 21:02:112 INFO  TestBase:59 - **************verifyNewUserCanBeAddedOnWebTablePageStarted***************
+2022-02-28 21:02:115 INFO  WebTablesPage:44 - Adding new User on webtable page...
+2022-02-28 21:02:306 INFO  WaitHelper:27 - WaitHelper object created..
+2022-02-28 21:02:342 INFO  WaitHelper:67 - waiting for :[[ChromeDriver: chrome on WINDOWS (42dbcb32d32bb7851194f37782a9074d)] -> id: firstName] for :5 seconds
+2022-02-28 21:02:642 INFO  WaitHelper:70 - element is visible now
+2022-02-28 21:02:847 INFO  WebTablesPage:55 - New user added succsessfully
+2022-02-28 21:02:848 INFO  WebTablesPage:61 - Searching provided string in search box..
+2022-02-28 21:02:632 INFO  WebTablesPage:64 - Searched provided string in search box = GFHn@jajk.com
+2022-02-28 21:02:769 INFO  WebTablesPage:75 - Provided user is displayed on webtable page
+2022-02-28 21:02:778 INFO  TestBase:72 - verifyNewUserCanBeAddedOnWebTablePage is pass
+2022-02-28 21:02:780 INFO  TestBase:81 - **************verifyNewUserCanBeAddedOnWebTablePageFinished***************
+2022-02-28 21:02:788 INFO  TestBase:59 - **************verifyAllDetailsOfNewlyAddedUserStarted***************
+2022-02-28 21:02:794 INFO  WebTablesPage:87 - Getting all details of provided user...
+2022-02-28 21:02:794 INFO  WebTablesPage:61 - Searching provided string in search box..
+2022-02-28 21:02:107 INFO  WebTablesPage:64 - Searched provided string in search box = GFHn@jajk.com
+2022-02-28 21:02:313 INFO  WebTablesPage:96 - User details are provided succsessfully
+2022-02-28 21:02:316 INFO  TestBase:72 - verifyAllDetailsOfNewlyAddedUser is pass
+2022-02-28 21:02:317 INFO  TestBase:81 - **************verifyAllDetailsOfNewlyAddedUserFinished***************
+2022-02-28 21:02:318 INFO  TestBase:59 - **************verifyExistingUserCanBeEditedStarted***************
+2022-02-28 21:02:319 INFO  WebTablesPage:102 - Editing existring user with provided details...
+2022-02-28 21:02:320 INFO  WebTablesPage:61 - Searching provided string in search box..
+2022-02-28 21:02:638 INFO  WebTablesPage:64 - Searched provided string in search box = GFHn@jajk.com
+2022-02-28 21:02:831 INFO  WaitHelper:27 - WaitHelper object created..
+2022-02-28 21:02:859 INFO  WaitHelper:67 - waiting for :[[ChromeDriver: chrome on WINDOWS (42dbcb32d32bb7851194f37782a9074d)] -> id: firstName] for :5 seconds
+2022-02-28 21:02:985 INFO  WaitHelper:70 - element is visible now
+2022-02-28 21:02:662 INFO  WebTablesPage:120 - User is edited successfully
+2022-02-28 21:02:663 INFO  WebTablesPage:61 - Searching provided string in search box..
+2022-02-28 21:02:893 INFO  WebTablesPage:64 - Searched provided string in search box = KJtl@PvuJ.com
+2022-02-28 21:02:950 INFO  WebTablesPage:78 - Provided user is not displayed on webtable page
+2022-02-28 21:02:335 INFO  TestBase:68 - verifyExistingUserCanBeEdited is Fail
+2022-02-28 21:02:337 INFO  TestBase:81 - **************verifyExistingUserCanBeEditedFinished***************
+2022-02-28 21:02:338 INFO  TestBase:59 - **************verifyAllDetailsOfEditedUserStarted***************
+2022-02-28 21:02:339 INFO  WebTablesPage:87 - Getting all details of provided user...
+2022-02-28 21:02:339 INFO  WebTablesPage:61 - Searching provided string in search box..
+2022-02-28 21:02:720 INFO  WebTablesPage:64 - Searched provided string in search box = KJtl@PvuJ.com
+2022-02-28 21:02:139 INFO  TestBase:68 - verifyAllDetailsOfEditedUser is Fail
+2022-02-28 21:02:140 INFO  TestBase:81 - **************verifyAllDetailsOfEditedUserFinished***************
+2022-02-28 21:02:141 INFO  TestBase:59 - **************verifyExistringUserCanBeDeletedStarted***************
+2022-02-28 21:02:142 INFO  WebTablesPage:126 - Deleting user with provided details...
+2022-02-28 21:02:143 INFO  WebTablesPage:61 - Searching provided string in search box..
+2022-02-28 21:02:372 INFO  WebTablesPage:64 - Searched provided string in search box = KJtl@PvuJ.com
+2022-02-28 21:02:763 INFO  TestBase:68 - verifyExistringUserCanBeDeleted is Fail
+2022-02-28 21:02:764 INFO  TestBase:81 - **************verifyExistringUserCanBeDeletedFinished***************
+2022-02-28 21:02:848 INFO  PropertyFileHelper:20 - Initializing mentioned property file
+2022-02-28 21:02:851 INFO  PropertyFileHelper:39 - Property file has been initialized
+2022-02-28 21:02:67 INFO  PropertyFileHelper:50 - Getting value of key from property file
+2022-02-28 21:02:68 INFO  PropertyFileHelper:52 - Value for provided key is  = https://demoqa.com/
+2022-02-28 21:02:206 INFO  TestBase:59 - **************verifyUserCanNavigateToWebTablePageStarted***************
+2022-02-28 21:02:215 INFO  CommonMethods:105 - Navigating to required page...= Element
+2022-02-28 21:02:217 INFO  JavaScriptHelper:20 - JavaScriptHelper has been initialised
+2022-02-28 21:02:365 INFO  CommonMethods:108 - Navigatition is sucessfull
+2022-02-28 21:02:366 INFO  WebTablesPage:36 - Navigating to Webtable page...
+2022-02-28 21:02:639 INFO  WebTablesPage:38 - Navigated to webtable page successfully
+2022-02-28 21:02:648 INFO  TestBase:72 - verifyUserCanNavigateToWebTablePage is pass
+2022-02-28 21:02:648 INFO  TestBase:81 - **************verifyUserCanNavigateToWebTablePageFinished***************
+2022-02-28 21:02:671 INFO  TestBase:59 - **************verifyNewUserCanBeAddedOnWebTablePageStarted***************
+2022-02-28 21:02:673 INFO  WebTablesPage:44 - Adding new User on webtable page...
+2022-02-28 21:02:949 INFO  WaitHelper:27 - WaitHelper object created..
+2022-02-28 21:02:978 INFO  WaitHelper:67 - waiting for :[[ChromeDriver: chrome on WINDOWS (1d537a22f55437b3fd8e37e0b1c2cec8)] -> id: firstName] for :5 seconds
+2022-02-28 21:02:369 INFO  WaitHelper:70 - element is visible now
+2022-02-28 21:02:519 INFO  WebTablesPage:55 - New user added succsessfully
+2022-02-28 21:02:520 INFO  WebTablesPage:61 - Searching provided string in search box..
+2022-02-28 21:02:981 INFO  WebTablesPage:64 - Searched provided string in search box = VIzQ@fIYP.com
+2022-02-28 21:02:59 INFO  WebTablesPage:75 - Provided user is displayed on webtable page
+2022-02-28 21:02:65 INFO  TestBase:72 - verifyNewUserCanBeAddedOnWebTablePage is pass
+2022-02-28 21:02:66 INFO  TestBase:81 - **************verifyNewUserCanBeAddedOnWebTablePageFinished***************
+2022-02-28 21:02:70 INFO  TestBase:59 - **************verifyAllDetailsOfNewlyAddedUserStarted***************
+2022-02-28 21:02:77 INFO  WebTablesPage:87 - Getting all details of provided user...
+2022-02-28 21:02:79 INFO  WebTablesPage:61 - Searching provided string in search box..
+2022-02-28 21:02:406 INFO  WebTablesPage:64 - Searched provided string in search box = VIzQ@fIYP.com
+2022-02-28 21:02:636 INFO  WebTablesPage:96 - User details are provided succsessfully
+2022-02-28 21:02:638 INFO  TestBase:72 - verifyAllDetailsOfNewlyAddedUser is pass
+2022-02-28 21:02:638 INFO  TestBase:81 - **************verifyAllDetailsOfNewlyAddedUserFinished***************
+2022-02-28 21:02:639 INFO  TestBase:59 - **************verifyExistingUserCanBeEditedStarted***************
+2022-02-28 21:02:649 INFO  WebTablesPage:102 - Editing existring user with provided details...
+2022-02-28 21:02:651 INFO  WebTablesPage:61 - Searching provided string in search box..
+2022-02-28 21:02:953 INFO  WebTablesPage:64 - Searched provided string in search box = VIzQ@fIYP.com
+2022-02-28 21:02:123 INFO  WaitHelper:27 - WaitHelper object created..
+2022-02-28 21:02:255 INFO  WaitHelper:67 - waiting for :[[ChromeDriver: chrome on WINDOWS (1d537a22f55437b3fd8e37e0b1c2cec8)] -> id: firstName] for :5 seconds
+2022-02-28 21:02:355 INFO  WaitHelper:70 - element is visible now
+2022-02-28 21:02:769 INFO  WebTablesPage:120 - User is edited successfully
+2022-02-28 21:02:772 INFO  WebTablesPage:61 - Searching provided string in search box..
+2022-02-28 21:02:87 INFO  WebTablesPage:64 - Searched provided string in search box = cjNj@Vvvu.com
+2022-02-28 21:02:167 INFO  WebTablesPage:75 - Provided user is displayed on webtable page
+2022-02-28 21:02:169 INFO  TestBase:72 - verifyExistingUserCanBeEdited is pass
+2022-02-28 21:02:169 INFO  TestBase:81 - **************verifyExistingUserCanBeEditedFinished***************
+2022-02-28 21:02:171 INFO  TestBase:59 - **************verifyAllDetailsOfEditedUserStarted***************
+2022-02-28 21:02:172 INFO  WebTablesPage:87 - Getting all details of provided user...
+2022-02-28 21:02:173 INFO  WebTablesPage:61 - Searching provided string in search box..
+2022-02-28 21:02:388 INFO  WebTablesPage:64 - Searched provided string in search box = cjNj@Vvvu.com
+2022-02-28 21:02:660 INFO  WebTablesPage:96 - User details are provided succsessfully
+2022-02-28 21:02:662 INFO  TestBase:72 - verifyAllDetailsOfEditedUser is pass
+2022-02-28 21:02:663 INFO  TestBase:81 - **************verifyAllDetailsOfEditedUserFinished***************
+2022-02-28 21:02:664 INFO  TestBase:59 - **************verifyExistringUserCanBeDeletedStarted***************
+2022-02-28 21:02:665 INFO  WebTablesPage:126 - Deleting user with provided details...
+2022-02-28 21:02:666 INFO  WebTablesPage:61 - Searching provided string in search box..
+2022-02-28 21:02:926 INFO  WebTablesPage:64 - Searched provided string in search box = cjNj@Vvvu.com
+2022-02-28 21:02:02 INFO  WebTablesPage:129 - Existring user with provided details is deleted
+2022-02-28 21:02:02 INFO  WebTablesPage:61 - Searching provided string in search box..
+2022-02-28 21:02:264 INFO  WebTablesPage:64 - Searched provided string in search box = cjNj@Vvvu.com
+2022-02-28 21:02:349 INFO  WebTablesPage:78 - Provided user is not displayed on webtable page
+2022-02-28 21:02:352 INFO  TestBase:72 - verifyExistringUserCanBeDeleted is pass
+2022-02-28 21:02:354 INFO  TestBase:81 - **************verifyExistringUserCanBeDeletedFinished***************
+2022-02-28 21:02:604 INFO  PropertyFileHelper:20 - Initializing mentioned property file
+2022-02-28 21:02:608 INFO  PropertyFileHelper:39 - Property file has been initialized
+2022-02-28 21:02:495 INFO  PropertyFileHelper:50 - Getting value of key from property file
+2022-02-28 21:02:495 INFO  PropertyFileHelper:52 - Value for provided key is  = https://demoqa.com/
+2022-02-28 21:02:772 INFO  TestBase:59 - **************verifyUserCanNavigateToWebTablePageStarted***************
+2022-02-28 21:02:784 INFO  CommonMethods:105 - Navigating to required page...= Element
+2022-02-28 21:02:792 INFO  JavaScriptHelper:20 - JavaScriptHelper has been initialised
+2022-02-28 21:02:908 INFO  CommonMethods:108 - Navigatition is sucessfull
+2022-02-28 21:02:908 INFO  WebTablesPage:36 - Navigating to Webtable page...
+2022-02-28 21:02:49 INFO  WebTablesPage:38 - Navigated to webtable page successfully
+2022-02-28 21:02:53 INFO  TestBase:72 - verifyUserCanNavigateToWebTablePage is pass
+2022-02-28 21:02:54 INFO  TestBase:81 - **************verifyUserCanNavigateToWebTablePageFinished***************
+2022-02-28 21:02:58 INFO  TestBase:59 - **************verifyNewUserCanBeAddedOnWebTablePageStarted***************
+2022-02-28 21:02:65 INFO  WebTablesPage:44 - Adding new User on webtable page...
+2022-02-28 21:02:301 INFO  WaitHelper:27 - WaitHelper object created..
+2022-02-28 21:02:356 INFO  WaitHelper:67 - waiting for :[[ChromeDriver: chrome on WINDOWS (d1877c63d14ab88cc9c876db824bbc1e)] -> id: firstName] for :5 seconds
+2022-02-28 21:02:628 INFO  WaitHelper:70 - element is visible now
+2022-02-28 21:02:755 INFO  WebTablesPage:55 - New user added succsessfully
+2022-02-28 21:02:756 INFO  WebTablesPage:61 - Searching provided string in search box..
+2022-02-28 21:02:109 INFO  WebTablesPage:64 - Searched provided string in search box = qvso@IxXF.com
+2022-02-28 21:02:157 INFO  WebTablesPage:75 - Provided user is displayed on webtable page
+2022-02-28 21:02:160 INFO  TestBase:72 - verifyNewUserCanBeAddedOnWebTablePage is pass
+2022-02-28 21:02:162 INFO  TestBase:81 - **************verifyNewUserCanBeAddedOnWebTablePageFinished***************
+2022-02-28 21:02:165 INFO  TestBase:59 - **************verifyAllDetailsOfNewlyAddedUserStarted***************
+2022-02-28 21:02:168 INFO  WebTablesPage:87 - Getting all details of provided user...
+2022-02-28 21:02:169 INFO  WebTablesPage:61 - Searching provided string in search box..
+2022-02-28 21:02:414 INFO  WebTablesPage:64 - Searched provided string in search box = qvso@IxXF.com
+2022-02-28 21:02:670 INFO  WebTablesPage:96 - User details are provided succsessfully
+2022-02-28 21:02:672 INFO  TestBase:72 - verifyAllDetailsOfNewlyAddedUser is pass
+2022-02-28 21:02:673 INFO  TestBase:81 - **************verifyAllDetailsOfNewlyAddedUserFinished***************
+2022-02-28 21:02:674 INFO  TestBase:59 - **************verifyExistingUserCanBeEditedStarted***************
+2022-02-28 21:02:677 INFO  WebTablesPage:102 - Editing existring user with provided details...
+2022-02-28 21:02:678 INFO  WebTablesPage:61 - Searching provided string in search box..
+2022-02-28 21:02:927 INFO  WebTablesPage:64 - Searched provided string in search box = qvso@IxXF.com
+2022-02-28 21:02:50 INFO  WaitHelper:27 - WaitHelper object created..
+2022-02-28 21:02:68 INFO  WaitHelper:67 - waiting for :[[ChromeDriver: chrome on WINDOWS (d1877c63d14ab88cc9c876db824bbc1e)] -> id: firstName] for :5 seconds
+2022-02-28 21:02:158 INFO  WaitHelper:70 - element is visible now
+2022-02-28 21:02:476 INFO  WebTablesPage:120 - User is edited successfully
+2022-02-28 21:02:476 INFO  WebTablesPage:61 - Searching provided string in search box..
+2022-02-28 21:02:858 INFO  WebTablesPage:64 - Searched provided string in search box = ZWQl@XMaQ.com
+2022-02-28 21:02:920 INFO  WebTablesPage:75 - Provided user is displayed on webtable page
+2022-02-28 21:02:923 INFO  TestBase:72 - verifyExistingUserCanBeEdited is pass
+2022-02-28 21:02:923 INFO  TestBase:81 - **************verifyExistingUserCanBeEditedFinished***************
+2022-02-28 21:02:927 INFO  TestBase:59 - **************verifyAllDetailsOfEditedUserStarted***************
+2022-02-28 21:02:936 INFO  WebTablesPage:87 - Getting all details of provided user...
+2022-02-28 21:02:937 INFO  WebTablesPage:61 - Searching provided string in search box..
+2022-02-28 21:02:159 INFO  WebTablesPage:64 - Searched provided string in search box = ZWQl@XMaQ.com
+2022-02-28 21:02:395 INFO  WebTablesPage:96 - User details are provided succsessfully
+2022-02-28 21:02:397 INFO  TestBase:72 - verifyAllDetailsOfEditedUser is pass
+2022-02-28 21:02:398 INFO  TestBase:81 - **************verifyAllDetailsOfEditedUserFinished***************
+2022-02-28 21:02:399 INFO  TestBase:59 - **************verifyExistringUserCanBeDeletedStarted***************
+2022-02-28 21:02:401 INFO  WebTablesPage:126 - Deleting user with provided details...
+2022-02-28 21:02:401 INFO  WebTablesPage:61 - Searching provided string in search box..
+2022-02-28 21:02:667 INFO  WebTablesPage:64 - Searched provided string in search box = ZWQl@XMaQ.com
+2022-02-28 21:02:777 INFO  WebTablesPage:129 - Existring user with provided details is deleted
+2022-02-28 21:02:777 INFO  WebTablesPage:61 - Searching provided string in search box..
+2022-02-28 21:02:25 INFO  WebTablesPage:64 - Searched provided string in search box = ZWQl@XMaQ.com
+2022-02-28 21:02:84 INFO  WebTablesPage:78 - Provided user is not displayed on webtable page
+2022-02-28 21:02:87 INFO  TestBase:72 - verifyExistringUserCanBeDeleted is pass
+2022-02-28 21:02:89 INFO  TestBase:81 - **************verifyExistringUserCanBeDeletedFinished***************
+2022-02-28 21:02:358 INFO  PropertyFileHelper:20 - Initializing mentioned property file
+2022-02-28 21:02:361 INFO  PropertyFileHelper:39 - Property file has been initialized
+2022-02-28 21:02:182 INFO  PropertyFileHelper:50 - Getting value of key from property file
+2022-02-28 21:02:182 INFO  PropertyFileHelper:52 - Value for provided key is  = https://demoqa.com/
+2022-02-28 21:02:310 INFO  TestBase:59 - **************verifyUserCanNavigateToWebTablePageStarted***************
+2022-02-28 21:02:316 INFO  CommonMethods:105 - Navigating to required page...= Element
+2022-02-28 21:02:318 INFO  JavaScriptHelper:20 - JavaScriptHelper has been initialised
+2022-02-28 21:02:428 INFO  CommonMethods:108 - Navigatition is sucessfull
+2022-02-28 21:02:429 INFO  WebTablesPage:42 - Navigating to Webtable page...
+2022-02-28 21:02:806 INFO  TestBase:68 - verifyUserCanNavigateToWebTablePage is Fail
+2022-02-28 21:02:808 INFO  TestBase:81 - **************verifyUserCanNavigateToWebTablePageFinished***************
+2022-02-28 21:02:812 INFO  TestBase:59 - **************verifyNewUserCanBeAddedOnWebTablePageStarted***************
+2022-02-28 21:02:815 INFO  WebTablesPage:50 - Adding new User on webtable page...
+2022-02-28 21:02:93 INFO  TestBase:68 - verifyNewUserCanBeAddedOnWebTablePage is Fail
+2022-02-28 21:02:94 INFO  TestBase:81 - **************verifyNewUserCanBeAddedOnWebTablePageFinished***************
+2022-02-28 21:02:95 INFO  TestBase:59 - **************verifyAllDetailsOfNewlyAddedUserStarted***************
+2022-02-28 21:02:98 INFO  WebTablesPage:93 - Getting all details of provided user...
+2022-02-28 21:02:98 INFO  WebTablesPage:67 - Searching provided string in search box..
+2022-02-28 21:02:378 INFO  TestBase:68 - verifyAllDetailsOfNewlyAddedUser is Fail
+2022-02-28 21:02:379 INFO  TestBase:81 - **************verifyAllDetailsOfNewlyAddedUserFinished***************
+2022-02-28 21:02:381 INFO  TestBase:59 - **************verifyExistingUserCanBeEditedStarted***************
+2022-02-28 21:02:383 INFO  WebTablesPage:108 - Editing existring user with provided details...
+2022-02-28 21:02:383 INFO  WebTablesPage:67 - Searching provided string in search box..
+2022-02-28 21:02:668 INFO  TestBase:68 - verifyExistingUserCanBeEdited is Fail
+2022-02-28 21:02:669 INFO  TestBase:81 - **************verifyExistingUserCanBeEditedFinished***************
+2022-02-28 21:02:670 INFO  TestBase:59 - **************verifyAllDetailsOfEditedUserStarted***************
+2022-02-28 21:02:674 INFO  WebTablesPage:93 - Getting all details of provided user...
+2022-02-28 21:02:674 INFO  WebTablesPage:67 - Searching provided string in search box..
+2022-02-28 21:02:916 INFO  TestBase:68 - verifyAllDetailsOfEditedUser is Fail
+2022-02-28 21:02:916 INFO  TestBase:81 - **************verifyAllDetailsOfEditedUserFinished***************
+2022-02-28 21:02:918 INFO  TestBase:59 - **************verifyExistringUserCanBeDeletedStarted***************
+2022-02-28 21:02:919 INFO  WebTablesPage:132 - Deleting user with provided details...
+2022-02-28 21:02:920 INFO  WebTablesPage:67 - Searching provided string in search box..
+2022-02-28 21:02:158 INFO  TestBase:68 - verifyExistringUserCanBeDeleted is Fail
+2022-02-28 21:02:159 INFO  TestBase:81 - **************verifyExistringUserCanBeDeletedFinished***************
+2022-02-28 21:02:751 INFO  PropertyFileHelper:20 - Initializing mentioned property file
+2022-02-28 21:02:755 INFO  PropertyFileHelper:39 - Property file has been initialized
+2022-02-28 21:02:473 INFO  PropertyFileHelper:50 - Getting value of key from property file
+2022-02-28 21:02:474 INFO  PropertyFileHelper:52 - Value for provided key is  = https://demoqa.com/
+2022-02-28 21:02:865 INFO  TestBase:59 - **************verifyUserCanNavigateToWebTablePageStarted***************
+2022-02-28 21:02:881 INFO  CommonMethods:105 - Navigating to required page...= Element
+2022-02-28 21:02:883 INFO  JavaScriptHelper:20 - JavaScriptHelper has been initialised
+2022-02-28 21:02:992 INFO  CommonMethods:108 - Navigatition is sucessfull
+2022-02-28 21:02:992 INFO  WebTablesPage:42 - Navigating to Webtable page...
+2022-02-28 21:02:225 INFO  WebTablesPage:44 - Navigated to webtable page successfully
+2022-02-28 21:02:229 INFO  TestBase:72 - verifyUserCanNavigateToWebTablePage is pass
+2022-02-28 21:02:229 INFO  TestBase:81 - **************verifyUserCanNavigateToWebTablePageFinished***************
+2022-02-28 21:02:234 INFO  TestBase:59 - **************verifyNewUserCanBeAddedOnWebTablePageStarted***************
+2022-02-28 21:02:236 INFO  WebTablesPage:50 - Adding new User on webtable page...
+2022-02-28 21:02:466 INFO  WaitHelper:27 - WaitHelper object created..
+2022-02-28 21:02:515 INFO  WaitHelper:67 - waiting for :[[ChromeDriver: chrome on WINDOWS (0480f71cbb538fe7989819577608fee4)] -> id: firstName] for :5 seconds
+2022-02-28 21:02:859 INFO  WaitHelper:70 - element is visible now
+2022-02-28 21:02:12 INFO  WebTablesPage:61 - New user added succsessfully
+2022-02-28 21:02:13 INFO  WebTablesPage:67 - Searching provided string in search box..
+2022-02-28 21:02:472 INFO  WebTablesPage:70 - Searched provided string in search box = YllX@YsOL.com
+2022-02-28 21:02:532 INFO  WebTablesPage:81 - Provided user is displayed on webtable page
+2022-02-28 21:02:540 INFO  TestBase:72 - verifyNewUserCanBeAddedOnWebTablePage is pass
+2022-02-28 21:02:541 INFO  TestBase:81 - **************verifyNewUserCanBeAddedOnWebTablePageFinished***************
+2022-02-28 21:02:543 INFO  TestBase:59 - **************verifyAllDetailsOfNewlyAddedUserStarted***************
+2022-02-28 21:02:544 INFO  WebTablesPage:93 - Getting all details of provided user...
+2022-02-28 21:02:545 INFO  WebTablesPage:67 - Searching provided string in search box..
+2022-02-28 21:02:784 INFO  WebTablesPage:70 - Searched provided string in search box = YllX@YsOL.com
+2022-02-28 21:02:55 INFO  WebTablesPage:102 - User details are provided succsessfully
+2022-02-28 21:02:57 INFO  TestBase:72 - verifyAllDetailsOfNewlyAddedUser is pass
+2022-02-28 21:02:58 INFO  TestBase:81 - **************verifyAllDetailsOfNewlyAddedUserFinished***************
+2022-02-28 21:02:74 INFO  TestBase:59 - **************verifyExistingUserCanBeEditedStarted***************
+2022-02-28 21:02:77 INFO  WebTablesPage:108 - Editing existring user with provided details...
+2022-02-28 21:02:78 INFO  WebTablesPage:67 - Searching provided string in search box..
+2022-02-28 21:02:355 INFO  WebTablesPage:70 - Searched provided string in search box = YllX@YsOL.com
+2022-02-28 21:02:501 INFO  WaitHelper:27 - WaitHelper object created..
+2022-02-28 21:02:548 INFO  WaitHelper:67 - waiting for :[[ChromeDriver: chrome on WINDOWS (0480f71cbb538fe7989819577608fee4)] -> id: firstName] for :5 seconds
+2022-02-28 21:02:634 INFO  WaitHelper:70 - element is visible now
+2022-02-28 21:02:864 INFO  WebTablesPage:126 - User is edited successfully
+2022-02-28 21:02:864 INFO  WebTablesPage:67 - Searching provided string in search box..
+2022-02-28 21:02:202 INFO  WebTablesPage:70 - Searched provided string in search box = ISel@KiIl.com
+2022-02-28 21:02:293 INFO  WebTablesPage:81 - Provided user is displayed on webtable page
+2022-02-28 21:02:296 INFO  TestBase:72 - verifyExistingUserCanBeEdited is pass
+2022-02-28 21:02:297 INFO  TestBase:81 - **************verifyExistingUserCanBeEditedFinished***************
+2022-02-28 21:02:299 INFO  TestBase:59 - **************verifyAllDetailsOfEditedUserStarted***************
+2022-02-28 21:02:301 INFO  WebTablesPage:93 - Getting all details of provided user...
+2022-02-28 21:02:301 INFO  WebTablesPage:67 - Searching provided string in search box..
+2022-02-28 21:02:526 INFO  WebTablesPage:70 - Searched provided string in search box = ISel@KiIl.com
+2022-02-28 21:02:818 INFO  WebTablesPage:102 - User details are provided succsessfully
+2022-02-28 21:02:820 INFO  TestBase:72 - verifyAllDetailsOfEditedUser is pass
+2022-02-28 21:02:821 INFO  TestBase:81 - **************verifyAllDetailsOfEditedUserFinished***************
+2022-02-28 21:02:823 INFO  TestBase:59 - **************verifyExistringUserCanBeDeletedStarted***************
+2022-02-28 21:02:823 INFO  WebTablesPage:132 - Deleting user with provided details...
+2022-02-28 21:02:824 INFO  WebTablesPage:67 - Searching provided string in search box..
+2022-02-28 21:02:172 INFO  WebTablesPage:70 - Searched provided string in search box = ISel@KiIl.com
+2022-02-28 21:02:278 INFO  WebTablesPage:135 - Existring user with provided details is deleted
+2022-02-28 21:02:279 INFO  WebTablesPage:67 - Searching provided string in search box..
+2022-02-28 21:02:474 INFO  WebTablesPage:70 - Searched provided string in search box = ISel@KiIl.com
+2022-02-28 21:02:536 INFO  WebTablesPage:84 - Provided user is not displayed on webtable page
+2022-02-28 21:02:540 INFO  TestBase:72 - verifyExistringUserCanBeDeleted is pass
+2022-02-28 21:02:541 INFO  TestBase:81 - **************verifyExistringUserCanBeDeletedFinished***************
+2022-02-28 21:02:920 INFO  PropertyFileHelper:20 - Initializing mentioned property file
+2022-02-28 21:02:923 INFO  PropertyFileHelper:39 - Property file has been initialized
+2022-02-28 21:02:849 INFO  PropertyFileHelper:50 - Getting value of key from property file
+2022-02-28 21:02:851 INFO  PropertyFileHelper:52 - Value for provided key is  = https://demoqa.com/
+2022-02-28 21:02:278 INFO  TestBase:59 - **************verifyUserCanNavigateToWebTablePageStarted***************
+2022-02-28 21:02:295 INFO  CommonMethods:105 - Navigating to required page...= Element
+2022-02-28 21:02:296 INFO  JavaScriptHelper:20 - JavaScriptHelper has been initialised
+2022-02-28 21:02:433 INFO  CommonMethods:108 - Navigatition is sucessfull
+2022-02-28 21:02:434 INFO  WebTablesPage2:43 - Navigating to Webtable page...
+2022-02-28 21:02:644 INFO  WebTablesPage2:45 - Navigated to webtable page successfully
+2022-02-28 21:02:655 INFO  TestBase:72 - verifyUserCanNavigateToWebTablePage is pass
+2022-02-28 21:02:658 INFO  TestBase:81 - **************verifyUserCanNavigateToWebTablePageFinished***************
+2022-02-28 21:02:670 INFO  TestBase:59 - **************verifyNewUserCanBeAddedOnWebTablePageStarted***************
+2022-02-28 21:02:671 INFO  WebTablesPage2:51 - Adding new User on webtable page...
+2022-02-28 21:02:852 INFO  WaitHelper:27 - WaitHelper object created..
+2022-02-28 21:02:890 INFO  WaitHelper:67 - waiting for :[[ChromeDriver: chrome on WINDOWS (46b1d381a8af447ca4e5d14316258420)] -> id: firstName] for :5 seconds
+2022-02-28 21:02:259 INFO  WaitHelper:70 - element is visible now
+2022-02-28 21:02:418 INFO  WebTablesPage2:62 - New user added succsessfully
+2022-02-28 21:02:418 INFO  WebTablesPage2:68 - Searching provided string in search box..
+2022-02-28 21:02:891 INFO  WebTablesPage2:71 - Searched provided string in search box = Oein@SRlb.com
+2022-02-28 21:02:980 INFO  WebTablesPage2:82 - Provided user is displayed on webtable page
+2022-02-28 21:02:990 INFO  TestBase:72 - verifyNewUserCanBeAddedOnWebTablePage is pass
+2022-02-28 21:02:991 INFO  TestBase:81 - **************verifyNewUserCanBeAddedOnWebTablePageFinished***************
+2022-02-28 21:02:992 INFO  TestBase:59 - **************verifyAllDetailsOfNewlyAddedUserStarted***************
+2022-02-28 21:02:995 INFO  WebTablesPage2:94 - Getting all details of provided user...
+2022-02-28 21:02:995 INFO  WebTablesPage2:68 - Searching provided string in search box..
+2022-02-28 21:02:256 INFO  WebTablesPage2:71 - Searched provided string in search box = Oein@SRlb.com
+2022-02-28 21:02:501 INFO  WebTablesPage2:103 - User details are provided succsessfully
+2022-02-28 21:02:504 INFO  TestBase:72 - verifyAllDetailsOfNewlyAddedUser is pass
+2022-02-28 21:02:504 INFO  TestBase:81 - **************verifyAllDetailsOfNewlyAddedUserFinished***************
+2022-02-28 21:02:506 INFO  TestBase:59 - **************verifyExistingUserCanBeEditedStarted***************
+2022-02-28 21:02:507 INFO  WebTablesPage2:109 - Editing existring user with provided details...
+2022-02-28 21:02:507 INFO  WebTablesPage2:68 - Searching provided string in search box..
+2022-02-28 21:02:761 INFO  WebTablesPage2:71 - Searched provided string in search box = Oein@SRlb.com
+2022-02-28 21:02:890 INFO  WaitHelper:27 - WaitHelper object created..
+2022-02-28 21:02:927 INFO  WaitHelper:67 - waiting for :[[ChromeDriver: chrome on WINDOWS (46b1d381a8af447ca4e5d14316258420)] -> id: firstName] for :5 seconds
+2022-02-28 21:02:14 INFO  WaitHelper:70 - element is visible now
+2022-02-28 21:02:267 INFO  WebTablesPage2:127 - User is edited successfully
+2022-02-28 21:02:267 INFO  WebTablesPage2:68 - Searching provided string in search box..
+2022-02-28 21:02:606 INFO  WebTablesPage2:71 - Searched provided string in search box = EkAK@SKnp.com
+2022-02-28 21:02:661 INFO  WebTablesPage2:82 - Provided user is displayed on webtable page
+2022-02-28 21:02:663 INFO  TestBase:72 - verifyExistingUserCanBeEdited is pass
+2022-02-28 21:02:663 INFO  TestBase:81 - **************verifyExistingUserCanBeEditedFinished***************
+2022-02-28 21:02:665 INFO  TestBase:59 - **************verifyAllDetailsOfEditedUserStarted***************
+2022-02-28 21:02:666 INFO  WebTablesPage2:94 - Getting all details of provided user...
+2022-02-28 21:02:666 INFO  WebTablesPage2:68 - Searching provided string in search box..
+2022-02-28 21:02:908 INFO  WebTablesPage2:71 - Searched provided string in search box = EkAK@SKnp.com
+2022-02-28 21:02:185 INFO  WebTablesPage2:103 - User details are provided succsessfully
+2022-02-28 21:02:187 INFO  TestBase:72 - verifyAllDetailsOfEditedUser is pass
+2022-02-28 21:02:188 INFO  TestBase:81 - **************verifyAllDetailsOfEditedUserFinished***************
+2022-02-28 21:02:189 INFO  TestBase:59 - **************verifyExistringUserCanBeDeletedStarted***************
+2022-02-28 21:02:192 INFO  WebTablesPage2:133 - Deleting user with provided details...
+2022-02-28 21:02:192 INFO  WebTablesPage2:68 - Searching provided string in search box..
+2022-02-28 21:02:448 INFO  WebTablesPage2:71 - Searched provided string in search box = EkAK@SKnp.com
+2022-02-28 21:02:559 INFO  WebTablesPage2:136 - Existring user with provided details is deleted
+2022-02-28 21:02:560 INFO  WebTablesPage2:68 - Searching provided string in search box..
+2022-02-28 21:02:796 INFO  WebTablesPage2:71 - Searched provided string in search box = EkAK@SKnp.com
+2022-02-28 21:02:81 INFO  WebTablesPage2:85 - Provided user is not displayed on webtable page
+2022-02-28 21:02:96 INFO  TestBase:72 - verifyExistringUserCanBeDeleted is pass
+2022-02-28 21:02:127 INFO  TestBase:81 - **************verifyExistringUserCanBeDeletedFinished***************

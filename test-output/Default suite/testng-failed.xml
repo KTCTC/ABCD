@@ -5,18 +5,18 @@
     <classes>
       <class name="KTCTC.regression.WebTablesTest">
         <methods>
+          <include name="verifyExistringUserCanBeDeleted"/>
           <include name="afterMethod"/>
-          <include name="verifyExistingUserCanBeDeletedOnWebTablePage"/>
           <include name="verifyNewUserCanBeAddedOnWebTablePage"/>
-          <include name="verfiyNavigationToWebTablePageAndInitialiseData"/>
           <include name="beforeSuite"/>
           <include name="beforeClassOfA"/>
-          <include name="verifyAllDetailsOfAddedUser"/>
           <include name="afterClass"/>
+          <include name="verifyExistingUserCanBeEdited"/>
           <include name="verifyAllDetailsOfEditedUser"/>
           <include name="afterSuiteMethod"/>
           <include name="beforeMethod"/>
-          <include name="verifyExistingUserDetailsCanBeEditedOnWebTablePage"/>
+          <include name="verifyAllDetailsOfNewlyAddedUser"/>
+          <include name="verifyUserCanNavigateToWebTablePage"/>
         </methods>
       </class> <!-- KTCTC.regression.WebTablesTest -->
     </classes>

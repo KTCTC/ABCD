@@ -33,7 +33,7 @@ public class TestBase {
 	public static ExtentTest test;
 	public WebDriver driver;
 	private Logger log = LoggerHelper.getLogger(TestBase.class);
-	CommonMethods cmObj = new CommonMethods();
+	public CommonMethods cmObj = new CommonMethods();
 	CaptureScreen screenObj = new CaptureScreen();
 	PropertyFileHelper proObj = new PropertyFileHelper("env.properties");
 	@BeforeSuite
