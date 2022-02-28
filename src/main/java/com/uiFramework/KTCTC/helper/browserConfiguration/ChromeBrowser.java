@@ -13,21 +13,22 @@ public class ChromeBrowser {
 
 	private ChromeOptions getChromeOptions() {
 		
+		
 		ChromeOptions option = new ChromeOptions();
 		option.addArguments("--disable-popup-blocking");
 		option.addArguments("--start-maximized");
-		//option.addArguments("--incognito");
+		option.addArguments("--incognito");
 		//option.setBinary("/path/to/other/chrome/binary");
 		//option.addArguments("--headless");
 		
 		DesiredCapabilities chrome = DesiredCapabilities.chrome();
 		chrome.setJavascriptEnabled(true);			
-		// 		
-		/*
-		 * chrome.setCapability("browserName", "chrome");
-		 * chrome.setCapability("timezone","UTC+05:30");
-		 * chrome.setCapability("geoLocation","IN");
-		 */
+				
+		
+		  chrome.setCapability("browserName", "chrome");
+		  chrome.setCapability("timezone","UTC+05:30");
+		  chrome.setCapability("geoLocation","IN");
+		 
 		
 		option.setCapability(ChromeOptions.CAPABILITY, chrome);	
 		//Linux
@@ -59,5 +60,6 @@ public class ChromeBrowser {
 		WebDriver driver = obj.getChromeDriver(obj.getChromeOptions());
 		return driver;
 	}
+	
 
 }

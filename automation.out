@@ -934,3 +934,72 @@
 2021-05-02 20:05:320 INFO  WebTablesPage:131 - given  records is not present
 2021-05-02 20:05:329 INFO  TestBase:72 - verifyExistingUserCanBeDeletedOnWebTablePage is pass
 2021-05-02 20:05:331 INFO  TestBase:81 - **************verifyExistingUserCanBeDeletedOnWebTablePageFinished***************
+2022-02-27 18:02:452 INFO  PropertyFileHelper:20 - Initializing mentioned property file
+2022-02-27 18:02:455 INFO  PropertyFileHelper:39 - Property file has been initialized
+2022-02-27 18:02:477 INFO  PropertyFileHelper:20 - Initializing mentioned property file
+2022-02-27 18:02:478 INFO  PropertyFileHelper:39 - Property file has been initialized
+2022-02-27 18:02:482 INFO  PropertyFileHelper:20 - Initializing mentioned property file
+2022-02-27 18:02:483 INFO  PropertyFileHelper:39 - Property file has been initialized
+2022-02-27 18:02:490 INFO  TestBase:59 - **************simpleFromBStarted***************
+2022-02-27 18:02:846 INFO  TestBase:68 - simpleFromB is Fail
+2022-02-27 18:02:848 INFO  TestBase:81 - **************simpleFromBFinished***************
+2022-02-27 18:02:851 INFO  TestBase:59 - **************simpleFromBBStarted***************
+2022-02-27 18:02:858 INFO  TestBase:72 - simpleFromBB is pass
+2022-02-27 18:02:859 INFO  TestBase:81 - **************simpleFromBBFinished***************
+2022-02-27 18:02:662 INFO  TestBase:59 - **************simpleStarted***************
+2022-02-27 18:02:23 INFO  TestBase:68 - simple is Fail
+2022-02-27 18:02:24 INFO  TestBase:81 - **************simpleFinished***************
+2022-02-27 18:02:26 INFO  TestBase:59 - **************simple1Started***************
+2022-02-27 18:02:32 INFO  TestBase:72 - simple1 is pass
+2022-02-27 18:02:32 INFO  TestBase:81 - **************simple1Finished***************
+2022-02-27 18:02:148 INFO  PropertyFileHelper:50 - Getting value of key from property file
+2022-02-27 18:02:148 INFO  PropertyFileHelper:52 - Value for provided key is  = https://demoqa.com/
+2022-02-27 18:02:573 INFO  TestBase:59 - **************verfiyNavigationToWebTablePageAndInitialiseDataStarted***************
+2022-02-27 18:02:588 INFO  CommonMethods:105 - Navigating to required page...= Elements
+2022-02-27 18:02:590 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2022-02-27 18:02:681 INFO  CommonMethods:108 - Navigatition is sucessfull
+2022-02-27 18:02:683 INFO  WebTablesPage:70 - Navigating to WebTable page...
+2022-02-27 18:02:844 INFO  WebTablesPage:72 - Navigated to WebTable page
+2022-02-27 18:02:851 INFO  TestBase:72 - verfiyNavigationToWebTablePageAndInitialiseData is pass
+2022-02-27 18:02:855 INFO  TestBase:81 - **************verfiyNavigationToWebTablePageAndInitialiseDataFinished***************
+2022-02-27 18:02:857 INFO  TestBase:59 - **************verifyNewUserCanBeAddedOnWebTablePageStarted***************
+2022-02-27 18:02:859 INFO  WebTablesPage:87 - Adding new user with provided details
+2022-02-27 18:02:961 INFO  WaitHelper:27 - WaitHelper object created..
+2022-02-27 18:02:987 INFO  WaitHelper:129 - waiting for :[[ChromeDriver: chrome on WINDOWS (c8c9324fe4a05730a61648196f303dee)] -> id: firstName] for :4 seconds
+2022-02-27 18:02:99 INFO  WaitHelper:132 - element is visible now
+2022-02-27 18:02:984 INFO  WebTablesPage:98 - New user is added
+2022-02-27 18:02:985 INFO  WebTablesPage:108 - Serching string in serch box
+2022-02-27 18:02:405 INFO  WebTablesPage:128 - given  records is present
+2022-02-27 18:02:407 INFO  TestBase:72 - verifyNewUserCanBeAddedOnWebTablePage is pass
+2022-02-27 18:02:407 INFO  TestBase:81 - **************verifyNewUserCanBeAddedOnWebTablePageFinished***************
+2022-02-27 18:02:408 INFO  TestBase:59 - **************verifyAllDetailsOfAddedUserStarted***************
+2022-02-27 18:02:410 INFO  WebTablesPage:108 - Serching string in serch box
+2022-02-27 18:02:675 INFO  WebTablesPage:146 - Getting all details of required user...
+2022-02-27 18:02:970 INFO  WebTablesPage:154 - All details of required user are returned 
+2022-02-27 18:02:972 INFO  TestBase:72 - verifyAllDetailsOfAddedUser is pass
+2022-02-27 18:02:973 INFO  TestBase:81 - **************verifyAllDetailsOfAddedUserFinished***************
+2022-02-27 18:02:973 INFO  TestBase:59 - **************verifyExistingUserDetailsCanBeEditedOnWebTablePageStarted***************
+2022-02-27 18:02:976 INFO  WebTablesPage:108 - Serching string in serch box
+2022-02-27 18:02:195 INFO  WebTablesPage:172 - Editing all fields of existing user...
+2022-02-27 18:02:287 INFO  WaitHelper:27 - WaitHelper object created..
+2022-02-27 18:02:317 INFO  WaitHelper:129 - waiting for :[[ChromeDriver: chrome on WINDOWS (c8c9324fe4a05730a61648196f303dee)] -> id: firstName] for :4 seconds
+2022-02-27 18:02:349 INFO  WaitHelper:132 - element is visible now
+2022-02-27 18:02:312 INFO  WebTablesPage:189 - Fields of user edited successfully
+2022-02-27 18:02:312 INFO  WebTablesPage:108 - Serching string in serch box
+2022-02-27 18:02:560 INFO  WebTablesPage:128 - given  records is present
+2022-02-27 18:02:562 INFO  TestBase:72 - verifyExistingUserDetailsCanBeEditedOnWebTablePage is pass
+2022-02-27 18:02:563 INFO  TestBase:81 - **************verifyExistingUserDetailsCanBeEditedOnWebTablePageFinished***************
+2022-02-27 18:02:564 INFO  TestBase:59 - **************verifyAllDetailsOfEditedUserStarted***************
+2022-02-27 18:02:565 INFO  WebTablesPage:108 - Serching string in serch box
+2022-02-27 18:02:761 INFO  WebTablesPage:146 - Getting all details of required user...
+2022-02-27 18:02:983 INFO  WebTablesPage:154 - All details of required user are returned 
+2022-02-27 18:02:984 INFO  TestBase:72 - verifyAllDetailsOfEditedUser is pass
+2022-02-27 18:02:985 INFO  TestBase:81 - **************verifyAllDetailsOfEditedUserFinished***************
+2022-02-27 18:02:986 INFO  TestBase:59 - **************verifyExistingUserCanBeDeletedOnWebTablePageStarted***************
+2022-02-27 18:02:987 INFO  WebTablesPage:198 - Deleting existing user...
+2022-02-27 18:02:987 INFO  WebTablesPage:108 - Serching string in serch box
+2022-02-27 18:02:279 INFO  WebTablesPage:201 - Existing user is deleted
+2022-02-27 18:02:280 INFO  WebTablesPage:108 - Serching string in serch box
+2022-02-27 18:02:515 INFO  WebTablesPage:131 - given  records is not present
+2022-02-27 18:02:521 INFO  TestBase:72 - verifyExistingUserCanBeDeletedOnWebTablePage is pass
+2022-02-27 18:02:521 INFO  TestBase:81 - **************verifyExistingUserCanBeDeletedOnWebTablePageFinished***************

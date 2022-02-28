@@ -1,16 +1,14 @@
 package com.uiFramework.KTCTC.helper.javaScript;
 
 import org.apache.log4j.Logger;
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 import com.uiFramework.KTCTC.helper.logger.LoggerHelper;
-/**
- * 
- * @author Bhanu Pratap Singh
- *
- */
+
 public class JavaScriptHelper {
 	
 	private WebDriver driver;
